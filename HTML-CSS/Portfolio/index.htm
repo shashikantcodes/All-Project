@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVBAAR -->
+    <nav>
+      <div class="left">
+        <a href="/">Shashikant Pathak</a>
+      </div>
+      <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer"
+          ><i class="fa-brands fa-github"></i><span>Github</span></a
+        >
+        <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"
+          ><i class="fa-brands fa-linkedin"></i><span>Linkedin</span></a
+        >
+        <a href="mailto:shashikantpathak186@gmail.com"
+          ><i class="fa-solid fa-envelope"></i><span>Email</span></a
+        >
+      </div>
+    </nav>
+    <main>
+      <!-- SECTION 1:Hero -->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hi, I'm Shashikant 👋</h2>
+          <h2>Web Developer</h2>
+          <p>
+            "As a passionate web developer, I specialize in creating dynamic,
+            user-friendly websites and web applications. With expertise in HTML,
+            CSS, JavaScript, and backend technologies, I focus on building
+            responsive and efficient digital solutions. I enjoy problem-solving
+            and continuously learning to stay updated with the latest trends in
+            web development."
+          </p>
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+            <a href="#testimony">
+              <i class="fa-solid fa-pen"></i>
+              <span>Testimony</span>
+            </a>
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>contact</span>
+            </a>
+          </div>
+        </div>
+        <div class="headshot">
+          <img src="./images/UserImage.png" alt="Shashi headshot" />
+        </div>
+      </section>
+      <!-- SECTION 2:Skills -->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          "Hello! I am a passionate web developer with expertise in creating
+          dynamic, user-friendly websites and web applications. With a strong
+          foundation in front-end technologies like HTML, CSS, JavaScript and
+          experience in back-end development using Node.js.I am skilled in
+          frameworks such as React and have a deep understanding of responsive
+          designs.
+        </div>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/html-logo.webp" alt="html logo" />
+            <span>HTML</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/css-logo.webp" alt="css logo" />
+            <span>CSS</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/javascript-logo.webp" alt="javascript-logo " />
+            <span>JavaScript</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/node-logo.webp" alt="nodejslogo" />
+            <span>Node.js</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/react-logo.webp" alt="reactlogo" />
+            <span>React.js</span>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION 3:Testimony -->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+        <div class="group">
+          <div class="person-details">
+            <img src="./images/testimony.jpg" />
+            <p>Shashikant Pathak</p>
+            <p>"Full-Stack Developer | MERN Stack Specialist"</p>
+          </div>
+          <div class="text">
+            "Hi, I'm Shashikant Pathak, a web developer with a passion for
+            creating responsive, intuitive websites that offer seamless user
+            experiences.I specialize in front-end development using HTML, CSS,
+            and JavaScript, with proficiency in frameworks like React and
+            Angular. I also work with back-end technologies such as Node.js and
+            databases like MongoDB and MySQL.I’m driven by the desire to create
+            impactful digital solutions that not only look great but function
+            flawlessly across devices,I’m always eager to learn new technologies
+            and stay ahead of industry trends.When I'm not coding, I love
+            [hobbies, like gaming, photography, or reading books], which keeps
+            my creativity flowing.Feel free to connect with me if you're looking
+            to build something amazing together!"
+          </div>
+        </div>
+      </section>
+      <!-- SECTION 4:contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+          <div class="text">
+            **Get in Touch**
+            <p>Email:shashikantpathak186@gmail.com</p>
+            <p>Phone: +916264393856</p>
+            <p>Location: Rajasthan,Kota</p>
+          </div>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+
+            <label for="message">Message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
