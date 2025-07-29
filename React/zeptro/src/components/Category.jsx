@@ -1,6 +1,6 @@
 
 import { useNavigate } from 'react-router-dom'
-import { getData } from '../context/Datacontext'
+import { getData } from '../context/DataContext'
 
 const Category = () => {
     const navigate = useNavigate()
