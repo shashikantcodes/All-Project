@@ -1,0 +1,18 @@
+# Ignore system folders
+AppData/
+.vscode/
+*.bin
+*.log
+*.blb
+*.exe
+*.dll
+*.cache
+*.tmp
+*.lock
+
+# Node.js and VS Code related
+node_modules/
+*.env
+dist/
+build/
+out/
