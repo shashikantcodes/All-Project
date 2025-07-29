@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getData } from '../context/Datacontext'
+import { getData } from '../context/DataContext'
 import FilterSection from '../components/FilterSection'
 import Loading from '../assets/Loading4.webm'
 import ProductCard from '../components/ProductCard'
